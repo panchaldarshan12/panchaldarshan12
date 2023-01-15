@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdio.h>
+
+main()
+{
+	 char Username[20];
+	 printf("Enter Username: ");
+	 gets(Username);
+	 if(strcmp(Username,"Darshan")==0)
+	 {
+	 	printf("\nWelcome. Login Successful\n");
+	 	
+	 }
+	 else
+	 {
+	 	printf("invalid Username\n");
+	 }
+	 
+	 
+	 
+	return 0;
+}
